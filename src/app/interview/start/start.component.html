@@ -1,0 +1,81 @@
+<div class="content">
+    <section>
+        <div class="interview-info">
+            <form class="interview-info-form">
+                <div class="form-item">
+                    <label for="company">Company Name</label><br>
+                    <input type="text" name="company">
+                </div>
+
+                <div class="form-item">
+                    <label for="job-title">Job Title</label><br>
+                    <input type="text" name="job-title">
+                </div>
+
+            </form>
+        </div>
+
+        <div class="skills-div">
+            <h2>Requirements</h2>
+
+            <form action="">
+                <div class="skill-item">
+                    <div class="form-item">
+                        <label for="skills">Skill</label><br>
+                        <select id="skills" name="skills">
+                            <option value=""></option>
+                            <option value="javascript">Javascript</option>
+                            <option value="oop">Object Oriented Programming</option>
+                            <option value="html">HTML</option>
+                            <option value="react">React</option>
+                        </select>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="experience">Experience Level</label><br>
+                        <select id="experience" name="experience">
+                            <option value=""></option>
+                            <option value="beginner">0 - 1 years</option>
+                            <option value="intermediate">2 - 3 years</option>
+                            <option value="advanced">4 years</option>
+                            <option value="expert">5+ years</option>
+                        </select>
+                    </div>
+                    <div class="add-requirement">
+                        <button>Add a Skill</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="skills-div">
+            <h2>Job Type</h2>
+
+            <div class="radio-btns-container">
+                <div class="radio-btn">
+                    <input type="radio" id="internship" name="employment-type" value="internship">
+                    <label for="internship">Internship</label><br>
+                </div>
+
+                <div class="radio-btn">
+                    <input type="radio" id="entry-level" name="employment-type" value="entry-level">
+                    <label for="entry-level">Entry Level</label><br>
+                </div>
+
+                <div class="radio-btn">
+                    <input type="radio" id="mid-level" name="employment-type" value="mid-level">
+                    <label for="mid-level">Mid Level</label><br>
+                </div>
+
+                <div class="radio-btn">
+                    <input type="radio" id="senior" name="employment-type" value="senior">
+                    <label for="senior">Senior</label><br>
+                </div>
+            </div>
+
+            <div class="start-interview">
+                <button routerLink="introduction">Start an Interview</button>
+            </div>
+        </div>
+
+    </section>
+</div>
